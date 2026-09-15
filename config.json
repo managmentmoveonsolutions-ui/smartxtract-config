@@ -1,7 +1,4 @@
 {
-  "version": "0.7.0",
-  "downloadUrl": "",
-  "notes": "",
   "ml": {
     "catLabels": {
       "Local": ["Locales", "Oficinas", "Negocios", "Galpones"],
