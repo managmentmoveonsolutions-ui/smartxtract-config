@@ -1,1 +1,15 @@
-{}
+{
+  "version": "0.7.0",
+  "ml": {
+    "catLabels": {
+      "Local": ["Locales", "Oficinas", "Negocios", "Galpones"],
+      "Casa": ["Casas", "Quintas", "Haciendas - Fincas"],
+      "Apartamento": ["Apartamentos", "Anexos", "Edificios", "Habitaciones"]
+    },
+    "drillGroups": ["Propiedades Individuales", "Propiedad Individual"],
+    "packages": ["Bronce", "Plata", "Oro"],
+    "publishTypes": ["productos", "vehiculos", "inmuebles", "servicios"],
+    "locIds": { "estado": "state", "ciudad": "city", "barrio": "neighborhood" }
+  },
+  "defaults": { "banos": "1", "parking": "1" }
+}
