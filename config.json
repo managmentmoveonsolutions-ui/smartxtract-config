@@ -1,4 +1,6 @@
 {
+  "loginUrl": "https://smartxtract-admin-production.up.railway.app/api/login",
+  "pinRequired": true,
   "ml": {
     "catLabels": {
       "Local": ["Locales", "Oficinas", "Negocios", "Galpones"],
