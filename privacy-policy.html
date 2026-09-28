@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — SmartXtract CRM</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a2e; --muted:#5b5b70; --card:#f6f7fb;
+    --border:#e3e5ee; --accent:#6d28d9; --accent2:#0e7c66;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px; margin:0 auto; padding:40px 20px 80px}
+  header{border-bottom:2px solid var(--border); padding-bottom:22px; margin-bottom:8px}
+  h1{font-size:1.8rem; margin:0 0 6px; letter-spacing:-.02em}
+  .sub{color:var(--muted); font-size:.95rem; margin:0}
+  .meta{display:flex; gap:18px; flex-wrap:wrap; margin-top:14px; font-size:.85rem; color:var(--muted)}
+  .meta b{color:var(--fg)}
+  h2{font-size:1.2rem; margin:34px 0 10px; color:var(--accent); letter-spacing:-.01em}
+  h3{font-size:1rem; margin:20px 0 6px}
+  p,li{color:var(--fg)}
+  ul{padding-left:22px}
+  li{margin:6px 0}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:16px 0}
+  table{width:100%; border-collapse:collapse; margin:14px 0; font-size:.92rem}
+  th,td{text-align:left; padding:10px 12px; border:1px solid var(--border); vertical-align:top}
+  th{background:var(--card); font-weight:600}
+  code{background:var(--card); border:1px solid var(--border); border-radius:6px; padding:1px 6px; font-size:.86em}
+  .pill{display:inline-block; background:var(--accent2); color:#fff; border-radius:999px; padding:2px 10px; font-size:.75rem; font-weight:600}
+  a{color:var(--accent)}
+  footer{margin-top:44px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:.85rem}
+  .hl{background:#fff6d6; border:1px solid #f0d98a; border-radius:8px; padding:2px 6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Política de Privacidad</h1>
+  <p class="sub">SmartXtract CRM — Flex a Mercado Libre (extensión para Google Chrome)</p>
+  <div class="meta">
+    <span><b>Última actualización:</b> 28 de septiembre de 2026</span>
+    <span><b>Vigencia:</b> 28 de septiembre de 2026</span>
+  </div>
+</header>
+
+<p>Esta Política de Privacidad describe de forma completa cómo la extensión de navegador
+<b>SmartXtract CRM — Flex a Mercado Libre</b> (en adelante, “la extensión”) recopila, utiliza,
+almacena y comparte los datos de sus usuarios. La extensión es una herramienta de productividad
+para agentes inmobiliarios que extrae información de inmuebles desde FlexMLS y ayuda a completar
+el asistente de publicación de Mercado Libre.</p>
+
+<div class="card">
+  <span class="pill">Resumen</span>
+  <p style="margin:10px 0 0">La extensión <b>no vende</b> datos de usuario, <b>no muestra publicidad</b>,
+  <b>no realiza seguimiento (tracking)</b> ni perfilado, y <b>no comparte datos con terceros con fines
+  comerciales, publicitarios ni de análisis</b>. Los datos se usan únicamente para hacer funcionar la
+  herramienta: iniciar sesión del agente y trasladar la información del inmueble desde FlexMLS hacia
+  Mercado Libre.</p>
+</div>
+
+<h2>1. Datos que recopilamos y tratamos</h2>
+<p>La extensión trata las siguientes categorías de datos, todas necesarias para su funcionamiento:</p>
+
+<table>
+  <thead>
+    <tr><th>Categoría de dato</th><th>Ejemplos</th><th>Origen</th><th>Finalidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Datos de autenticación</b></td>
+      <td>Correo electrónico y PIN del agente; nombre del agente</td>
+      <td>Ingresados por el propio usuario en la pantalla de inicio de sesión</td>
+      <td>Verificar que el agente está autorizado a usar la extensión e identificar sus publicaciones</td>
+    </tr>
+    <tr>
+      <td><b>Datos de los inmuebles</b></td>
+      <td>Dirección, precio, metraje, tipo de propiedad, descripción y fotos del inmueble</td>
+      <td>Leídos de las páginas de FlexMLS que el usuario abre</td>
+      <td>Rellenar el formulario de publicación de Mercado Libre con esa información</td>
+    </tr>
+    <tr>
+      <td><b>Preferencias y estado de la app</b></td>
+      <td>Tema (claro/oscuro), zonas recordadas, cola de trabajo, registro de publicaciones realizadas, opciones de automatización</td>
+      <td>Generados por el uso de la extensión</td>
+      <td>Recordar la configuración y el progreso del usuario entre sesiones</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b>No</b> recopilamos: datos financieros, contraseñas de Mercado Libre o de FlexMLS,
+historial de navegación, ubicación del dispositivo, contactos, ni datos de salud. La extensión
+tampoco lee páginas web fuera de FlexMLS, Mercado Libre y el archivo de configuración descrito abajo.</p>
+
+<h2>2. Cómo utilizamos los datos</h2>
+<ul>
+  <li><b>Autenticación:</b> el correo y el PIN se usan solo para comprobar que el agente está
+  autorizado. El nombre del agente se usa para identificar y filtrar sus propias publicaciones cuando
+  varios agentes comparten una misma cuenta de Mercado Libre.</li>
+  <li><b>Traslado de información del inmueble:</b> los datos y fotos leídos de FlexMLS se colocan en
+  el asistente de publicación de Mercado Libre. La publicación siempre requiere la acción y la cuenta
+  del propio usuario.</li>
+  <li><b>Funcionamiento de la herramienta:</b> las preferencias y el estado de la cola se usan para
+  recordar la configuración y continuar el trabajo pendiente.</li>
+</ul>
+<p>No utilizamos los datos para fines distintos a los aquí descritos, ni para publicidad,
+elaboración de perfiles o venta a terceros.</p>
+
+<h2>3. Cómo y dónde se almacenan los datos</h2>
+<ul>
+  <li><b>Almacenamiento local en el dispositivo:</b> los datos de los inmuebles, las preferencias,
+  la cola de trabajo y el registro de publicaciones se guardan localmente en el navegador del
+  usuario mediante <code>chrome.storage.local</code>. No se transmiten a ningún servidor de la
+  extensión. Estos datos permanecen en el dispositivo hasta que el usuario los borra o desinstala la
+  extensión.</li>
+  <li><b>Datos de autenticación:</b> el correo y el PIN se envían a nuestro servidor de
+  autenticación (ver sección 4) únicamente en el momento del inicio de sesión, para validarlos.
+  El nombre del agente devuelto por el servidor se guarda localmente en el dispositivo.</li>
+</ul>
+
+<h2>4. Con quién se comparten los datos (terceros)</h2>
+<p>La extensión comparte datos únicamente con las siguientes partes y solo en la medida
+necesaria para funcionar:</p>
+<table>
+  <thead>
+    <tr><th>Parte</th><th>Qué se comparte</th><th>Por qué</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Servidor de autenticación de SmartXtract</b><br>
+      <code>smartxtract-admin-production.up.railway.app</code> (alojado en Railway)</td>
+      <td>Correo electrónico y PIN del agente en el inicio de sesión</td>
+      <td>Verificar que el agente está autorizado a usar la extensión</td>
+    </tr>
+    <tr>
+      <td><b>Mercado Libre</b><br><code>mercadolibre.com</code> / <code>mercadolibre.com.ve</code></td>
+      <td>Los datos del inmueble (dirección, precio, descripción, fotos, etc.) que el usuario decide publicar</td>
+      <td>Publicar el inmueble en la cuenta de Mercado Libre del propio usuario, por su acción</td>
+    </tr>
+    <tr>
+      <td><b>GitHub</b><br><code>raw.githubusercontent.com</code></td>
+      <td>Ningún dato personal. La extensión solo <b>descarga</b> un archivo de configuración público</td>
+      <td>Obtener la configuración actualizada (etiquetas y ajustes) de la herramienta</td>
+    </tr>
+    <tr>
+      <td><b>Spark Platform / FlexMLS (CDN de imágenes)</b><br><code>sparkplatform.com</code></td>
+      <td>Ningún dato personal. La extensión solo <b>lee</b> las fotos del inmueble</td>
+      <td>Obtener las imágenes del inmueble para la publicación</td>
+    </tr>
+  </tbody>
+</table>
+<p><b>No compartimos datos con ninguna otra parte.</b> No vendemos ni alquilamos datos de usuario,
+no los transferimos con fines publicitarios, de análisis o de mercadeo, y no los usamos para
+determinar la solvencia ni con fines de préstamo.</p>
+
+<h2>5. Cumplimiento con las políticas de Chrome Web Store</h2>
+<p>El uso que la extensión hace de la información recibida se limita a las prácticas divulgadas en
+esta política. En particular, declaramos que la extensión <b>no</b> transfiere datos de usuario a
+terceros salvo en los casos limitados descritos en la sección 4 (autenticación y publicación por
+acción del usuario), <b>no</b> los utiliza ni transfiere con fines no relacionados con la
+funcionalidad principal de la extensión, y <b>no</b> los usa ni transfiere para determinar la
+solvencia ni con fines de préstamo.</p>
+
+<h2>6. Conservación y eliminación de datos</h2>
+<ul>
+  <li>Los datos guardados localmente (inmuebles, preferencias, cola, registro) se conservan en el
+  dispositivo hasta que el usuario los elimina o desinstala la extensión. Al desinstalar la
+  extensión, Chrome elimina el almacenamiento local asociado.</li>
+  <li>El correo y el nombre del agente se conservan en el servidor de autenticación mientras la
+  cuenta del agente esté activa. El usuario puede solicitar la eliminación de su cuenta escribiendo
+  al contacto indicado abajo.</li>
+</ul>
+
+<h2>7. Seguridad</h2>
+<p>Las comunicaciones con el servidor de autenticación y con los servicios de terceros se realizan
+sobre conexiones cifradas (HTTPS). El acceso administrativo al servidor está protegido por
+contraseña. Aun así, ningún método de transmisión o almacenamiento es 100% seguro, por lo que no
+podemos garantizar seguridad absoluta.</p>
+
+<h2>8. Menores de edad</h2>
+<p>La extensión es una herramienta profesional para agentes inmobiliarios y no está dirigida a
+menores de edad ni recopila conscientemente datos de menores.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Podemos actualizar esta Política de Privacidad. Cualquier cambio se reflejará en esta misma
+página con una nueva fecha de “Última actualización”.</p>
+
+<h2>10. Contacto</h2>
+<p>Para cualquier consulta sobre privacidad o para solicitar la eliminación de tus datos, escribe a:</p>
+<div class="card">
+  <b>Responsable:</b> SmartXtract / Move On Solutions<br>
+  <b>Correo de contacto:</b> <span class="hl">CORREO_DE_CONTACTO@ejemplo.com</span>
+  &nbsp;(← reemplaza esto por tu correo real antes de publicar)
+</div>
+
+<footer>
+  © 2026 SmartXtract. Esta política aplica a la extensión “SmartXtract CRM — Flex a Mercado Libre”.
+</footer>
+</div>
+</body>
+</html>
