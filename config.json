@@ -8,7 +8,7 @@
       "Apartamento": ["Apartamentos", "Anexos", "Edificios", "Habitaciones"]
     },
     "drillGroups": ["Propiedades Individuales", "Propiedad Individual"],
-    "packages": ["Bronce", "Plata", "Oro"],
+    "packages": ["Bronce", "Plata", "Oro", "Oro Premium"],
     "publishTypes": ["productos", "vehiculos", "inmuebles", "servicios"],
     "locIds": { "estado": "state", "ciudad": "city", "barrio": "neighborhood" }
   },
